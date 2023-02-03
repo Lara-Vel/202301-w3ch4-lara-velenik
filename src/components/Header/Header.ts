@@ -6,9 +6,9 @@ export default class Header extends Component {
   constructor(
     textTitle: string,
     parentElement: HTMLElement | null,
-    cssClases: string = '',
+    cssClasses: string = '',
   ) {
-    super(parentElement, 'header', cssClases);
+    super(parentElement, 'header', cssClasses);
     this.#textTitle = textTitle;
   }
 
